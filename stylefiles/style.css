@@ -64,7 +64,7 @@ a:hover{
   }
 
   #second{
-      padding: 100pt;
+      padding: 10pt;
       padding-top: 10pt;
       padding-bottom: 0%;
       text-align: center;
@@ -83,52 +83,52 @@ a:hover{
       color: cyan;
   }
 
-  .container-1{
+  /**.container-1{
     display: flex;
-}
+} **/
 fieldset{
     text-align: center;
 }
   .box-1 {
-    flex: 1;
-    order: 1;
+    /** flex: 1;
+    order: 1; **/
     background-color:lightslategray;
     /** background-image: url(../generalimages/heran021.jpg); **/
     background-repeat: no-repeat;
     background-size: cover;
-    fill-opacity: 10%;
+   
     text-align: center ;
-    align-self: flex-start;
+    /** align-self: flex-start; **/
     height: 200pt;
-    flex-basis: 33%;
+    /** flex-basis: 33%; **/
     padding: 2%;
     border-radius: 20%;
   }
   .box-2 {
-    flex: 1;
-    order: 2;
+    /** flex: 1;
+    order: 2; **/
     background-color:lightslategray;
     /** background-image: url(../generalimages/heran031.jpg); **/
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center ;
-    align-self: flex-start;
-    flex-basis: 33%;
+    /** align-self: flex-start; **/
+    /** flex-basis: 33%; **/
     padding: 2%;
     height: 200pt;
     border-radius: 20%;
   } 
 
   .box-3 {
-    flex: 1;
-    order: 3;
+    /** flex: 1;
+    order: 3; **/
     background-color:lightslategray;
     /** background-image: url(../generalimages/heran091.jpg); **/
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center ;
-    align-self: flex-start;
-    flex-basis: 33%;
+    /** align-self: flex-start; **/
+    /** flex-basis: 33%;**/
     padding: 2%;
     height: 200pt;
     border-radius: 20%;
