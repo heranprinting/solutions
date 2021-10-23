@@ -1,0 +1,135 @@
+
+body{
+    
+    background-color:darkslategray;
+    padding: 10pt;
+
+}
+p{ 
+    
+}
+h1{
+    color: red;
+}
+
+fieldset{
+    text-align: center;
+}
+
+nav {
+    padding: 20pt;
+    background-image: url(../generalimages/heran00.jpg);
+    height: 100pt;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center ;
+    border-radius: 20%;
+}
+#navigation ul{
+list-style-type: none;
+word-spacing: 10pt;
+}
+
+#navigation li{
+display: inline;
+}
+
+a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20pt;
+    color: yellow;
+    background-size: 100%;
+    background-color: slategrey;
+    padding: 10pt;
+}
+
+a:hover{
+    color: white;
+    background-color: red;
+}
+
+.button {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+   
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1%;
+  }
+  .button:hover {
+    color: red;
+    background-color: black;
+  }
+
+  #second{
+      padding: 100pt;
+      padding-top: 10pt;
+      padding-bottom: 0%;
+      text-align: center;
+  }
+  .pic{
+      text-align: center;
+  }
+  .download{
+      text-align: center;
+  }
+
+  .bekele{
+      color: red;
+  }
+  #kebede{
+      color: cyan;
+  }
+
+  .container-1{
+    display: flex;
+}
+fieldset{
+    text-align: center;
+}
+  .box-1 {
+    flex: 1;
+    order: 1;
+    background-color:lightslategray;
+    /** background-image: url(../generalimages/heran021.jpg); **/
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill-opacity: 10%;
+    text-align: center ;
+    align-self: flex-start;
+    height: 200pt;
+    flex-basis: 33%;
+    padding: 2%;
+    border-radius: 20%;
+  }
+  .box-2 {
+    flex: 1;
+    order: 2;
+    background-color:lightslategray;
+    /** background-image: url(../generalimages/heran031.jpg); **/
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center ;
+    align-self: flex-start;
+    flex-basis: 33%;
+    padding: 2%;
+    height: 200pt;
+    border-radius: 20%;
+  } 
+
+  .box-3 {
+    flex: 1;
+    order: 3;
+    background-color:lightslategray;
+    /** background-image: url(../generalimages/heran091.jpg); **/
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center ;
+    align-self: flex-start;
+    flex-basis: 33%;
+    padding: 2%;
+    height: 200pt;
+    border-radius: 20%;
+  } 
